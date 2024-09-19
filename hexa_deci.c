@@ -4,6 +4,6 @@
 #include <stdlib.h>
 int hexa_decimal(char hexa[], char decimal[], int valorConvertido){
 
-
+    printf("Teste");
 
 }
