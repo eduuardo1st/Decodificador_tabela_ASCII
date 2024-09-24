@@ -21,13 +21,11 @@ int main(){
         printf("digite a mensagem decodificada: ");
         fgets(mensagemHexa, mensagem, stdin);
         fflush(stdin);
-        
-        
         //o codigo abaixo eh para decodificar a mensagem
         for(i=0; i<100; i+=2){
             aux[0] = mensagemHexa[i];
             aux[1] = mensagemHexa[i+1];
-            a = strtol(aux, stdin, 16);
+            a = strtol(aux[1], stdin, 16);
             if(a == 0){
                 break;
             }
