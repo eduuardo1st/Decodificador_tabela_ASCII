@@ -6,7 +6,7 @@
 #include "caractere.h"
 #define mensagem 101
 int main(){
-     int numMensagens, a, b, i;
+     int numMensagens, a, b, i, x = 1;
      char mensagemHexa[101], aux[101];
      //coleta de informacoes
      printf("Digite o numero de mensagens interceptadas: ");
@@ -22,7 +22,7 @@ int main(){
         fgets(mensagemHexa, mensagem, stdin);
         fflush(stdin);
         
-        f(mensagemHexa,b);
+        
         //o codigo abaixo eh para decodificar a mensagem
         for(i=0; i<100; i+=2){
             aux[0] = mensagemHexa[i];
@@ -31,6 +31,12 @@ int main(){
             if(a == 0){
                 break;
             }
+        
+        double result = f(x, b);
+        if(result != 0) {
+            printf("%c", a);
+        }
+        x++;
         }
         printf("\n");
      }
