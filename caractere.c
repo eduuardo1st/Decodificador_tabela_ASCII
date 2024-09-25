@@ -3,7 +3,6 @@
 #include <math.h>
 #include <stdlib.h>
 double f(int x, int b){
-    int i;
 double a0 = 186.752, a1 = -148.235, a2 = 34.5049, a3 = -3.5091, a4 = 0.183166;
 double a5 = -0.00513554, a6 = 0.0000735464, a7 = -4.22038*pow(10,-7);
 
