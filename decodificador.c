@@ -1,8 +1,9 @@
 #include <stdio.h>
-#include <locale.h>
 #include <math.h>
 #include <string.h>
 #include <stdlib.h>
+#include "caractere.h"
+
 double f(int x, int b);
 double f(int x, int b){
 double a0 = 186.752, a1 = -148.235, a2 = 34.5049, a3 = -3.5091, a4 = 0.183166;

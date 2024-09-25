@@ -1,6 +1,6 @@
 #ifdef CARACTERE_H
 #define CARACTERE_H
-double f(int x, int b)
+double f(int x, int b);
 
 
 
